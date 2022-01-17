@@ -57,7 +57,7 @@ export default function PracticeNavbar(props) {
   </div>
 <div className={`form-check text-${props.themeMode==='light'? 'dark':'light'}`}>
   <input className={"form-check-input mx-2"} type="radio" name="exampleRadios" id="yellowSwitch" value="option2" onClick={props.yellowSwitch} style={{backgroundColor:'#fbd82b'}}/>
-  <label className="form-check-label" htmlFor="greenSwitch" style={{color:'#fbd82b'}}>
+  <label className="form-check-label" htmlFor="yellowSwitch" style={{color:'#fbd82b'}}>
     Yellow mode
   </label>
   </div>
