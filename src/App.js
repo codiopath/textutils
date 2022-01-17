@@ -3,13 +3,13 @@ import React, { useState } from 'react'
 import PracticeNavbar from './components/PracticeNavbar';
 import PracticeTextForm from './components/PracticeTextForm';
 import Alert from './components/Alert';
-import About from './components/About';
-import NoMatch from './components/NoMatch';
+// import About from './components/About';
+// import NoMatch from './components/NoMatch';
 
-import {
-  Routes,
-  Route,
-} from "react-router-dom";
+// import {
+//   Routes,
+//   Route,
+// } from "react-router-dom";
 
 
 
@@ -190,7 +190,7 @@ function App() {
     // setswitchMode("Dark Mode")
     document.body.style.backgroundColor = '#fbd82b'
     document.body.style.color = 'black'
-    showAlert("Red mode has been enabled", "success")
+    showAlert("Yellow mode has been enabled", "success")
   }
 
   const greenSwitch=()=>{
